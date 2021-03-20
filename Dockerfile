@@ -1,4 +1,4 @@
-FROM node:14-buster
+FROM gcr.io/distroless/nodejs:14
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y build-essential git fish
